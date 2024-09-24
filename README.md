@@ -1,19 +1,23 @@
-# REGISTRIES
-A mc plugin allowing for registering things
+# Registries
+A Minecraft plugin that provides an easy-to-use registry system for registering various components.
 
+## How to Install
 
-HOW TO INSTALL:
+To include the `Registries` plugin in your project, add the following to your `build.gradle`:
 
-`  
-maven {\n\t
-        name = "Jitpack"\n\t
-        url = 'https://jitpack.io'\n
+<pre>
+<code>
+repositories {
+    maven {
+        name = "Jitpack"
+        url = 'https://jitpack.io'
+    }
 }
-`
 
-Include that in your repositories block
+dependencies {
+    implementation 'com.github.m00nb0ygame8:Registries:v1.3' // Replace v1.3 with the latest version
+}
+</code>
+</pre>
 
-`
-implementation 'com.github.m00nb0ygame8:Registries:v1.3'\n
-`
-Include that in your dependencies block. Make sure the v1.3 is the latest version (naming scheme is v#.# Registries so replace the v1.3 with the latest v#.#)
+_Note: Make sure to replace `v1.3` with the latest available version of `Registries`._
