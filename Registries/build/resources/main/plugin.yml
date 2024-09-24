@@ -1,0 +1,4 @@
+name: Registries
+version: '1.0-SNAPSHOT'
+main: me.moonboygamer.registries.Registries
+api-version: '1.21'
