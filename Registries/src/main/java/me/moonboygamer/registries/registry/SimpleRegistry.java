@@ -35,7 +35,7 @@ public class SimpleRegistry<T extends Registerable> implements Registry<T>{
         return this.entries.stream().toList();
     }
 
-    public static Registry create(String name) {
+    public static SimpleRegistry create(String name) {
         return new SimpleRegistry(name);
     }
 
